@@ -1,0 +1,36 @@
+site_name: Christopher Akiki
+
+theme:
+  name: material
+  # logo: assets/images/.png
+  # favicon: assets/images/.png
+#  features:
+#    - navigation.expand
+
+repo_url: https://github.com/cakiki/docs
+edit_uri: edit/main/docs/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+nav:
+    - Home: 'index.md'
+    - Group 1:
+        - Page 1: 'group1/page1.md'
+        - Page 2: 'group1/page2.md'
+    - Group 2:
+        - Page 1: 'group2/page1.md'
+        - Page 2: 'group2/page2.md'
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/christopher
+    - icon: fontawesome/brands/github
+      link: https://github.com/cakiki
+      link: https://hub.docker.com/u/cakiki
+      link: https://webis.de/people.html
+
+copyright: Copyright &copy; 2021 <a href="https://github.com/cakiki/docs">Christopher Akiki</a>
